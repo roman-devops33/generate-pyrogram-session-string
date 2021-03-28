@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "pyrogramgeneratesessionstring"
+name = "generate-pyrogram-session-string"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Generate Pyrogram Session String and send it to Saved Messages of your Telegram account"
+authors = ["Dash Eclipse <dashezup@disroot.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 Pyrogram = "^1.2.5"
+TgCrypto = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 
