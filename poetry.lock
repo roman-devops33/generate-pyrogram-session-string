@@ -1,0 +1,57 @@
+[[package]]
+category = "main"
+description = "Simple lru_cache for asyncio"
+name = "async-lru"
+optional = false
+python-versions = "*"
+version = "1.0.2"
+
+[[package]]
+category = "main"
+description = "Pure-Python Implementation of the AES block-cipher and common modes of operation"
+name = "pyaes"
+optional = false
+python-versions = "*"
+version = "1.6.1"
+
+[[package]]
+category = "main"
+description = "Telegram MTProto API Client Library and Framework for Python"
+name = "pyrogram"
+optional = false
+python-versions = "~=3.6"
+version = "1.2.5"
+
+[package.dependencies]
+async-lru = "1.0.2"
+pyaes = "1.6.1"
+pysocks = "1.7.1"
+
+[[package]]
+category = "main"
+description = "A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information."
+name = "pysocks"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.7.1"
+
+[metadata]
+content-hash = "97f8a531f9a78d1d24aea821d8fc2c4084d4bb597577772e0764da5b2020b237"
+python-versions = "^3.8"
+
+[metadata.files]
+async-lru = [
+    {file = "async_lru-1.0.2.tar.gz", hash = "sha256:baa898027619f5cc31b7966f96f00e4fc0df43ba206a8940a5d1af5336a477cb"},
+]
+pyaes = [
+    {file = "pyaes-1.6.1.tar.gz", hash = "sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f"},
+]
+pyrogram = [
+    {file = "Pyrogram-1.2.5-py3-none-any.whl", hash = "sha256:ee4ca40d9b7d78da8335eb04462340ecbcf75a5c94d5b2c3fa6a454ac79e30df"},
+    {file = "Pyrogram-1.2.5.tar.gz", hash = "sha256:01ddf5a5beeba8180dde9f3a3394f57d9e0e2d631c3c34c2a16fa3ed1f20975a"},
+]
+pysocks = [
+    {file = "PySocks-1.7.1-py27-none-any.whl", hash = "sha256:08e69f092cc6dbe92a0fdd16eeb9b9ffbc13cadfe5ca4c7bd92ffb078b293299"},
+    {file = "PySocks-1.7.1-py3-none-any.whl", hash = "sha256:2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5"},
+    {file = "PySocks-1.7.1.tar.gz", hash = "sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0"},
+]
