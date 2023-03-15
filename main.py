@@ -13,6 +13,14 @@ from pyrogram import Client
 
 
 async def main():
+    print("""
+        Go to my.telegram.org
+        Login using your Telegram account
+        Click on API Development Tools
+        Create a new application, by entering the required details
+        Check your Telegram saved messages section to get your SESSION_NAME
+        """
+        )
     api_id = int(input("API ID: "))
     api_hash = input("API HASH: ")
     async with Client(":memory:", api_id=api_id, api_hash=api_hash) as app:
