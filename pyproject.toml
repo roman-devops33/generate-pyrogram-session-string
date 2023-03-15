@@ -6,7 +6,7 @@ authors = ["Dash Eclipse <dashezup@disroot.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Pyrogram = "^1.2.5"
+Pyrogram = "^2.0.0"
 TgCrypto = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
